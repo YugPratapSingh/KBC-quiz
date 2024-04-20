@@ -28,12 +28,11 @@ export default function Trivia({
     },duration);
   }
 
-  delay(2000, (letsPlay));
+
   
-// useEffect(() => {
-//     letsPlay();
-//   },[letsPlay])
-  
+    useEffect(() => {
+        letsPlay();
+      },[letsPlay])
   const handleClick = (a) => {
     setSelectedAnswer(a);
     setClassName("answer active");

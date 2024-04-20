@@ -127,8 +127,8 @@
 .moneyListItem{
     display: flex;
     align-items: center;
-    border-radius: 8px;
-    padding: 8px;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .moneyListItem.active{
@@ -136,13 +136,13 @@
 }
 
 .moneyListItemNumber{
-    font-size: 26px;
+    font-size: 23px;
     font-weight: 100;
     width: 30%;
 }
 
 .moneyListItemAmount{
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 300;
 }
 

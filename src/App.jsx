@@ -368,6 +368,17 @@ function App() {
       questionNumber > 1 && setEarned(moneyPyramid.find(m=>m.id === questionNumber-1).amount)
   }, [moneyPyramid,questionNumber])
 
+  const displayEarnings=() => {
+    console.log(questionNumber);
+    if (questionNumber!=1)
+    {
+      return("Congratulations---!");
+    }
+    else
+    {
+      return("Sorry---!");
+    }
+  }
 
   return (
     <div className="app">
@@ -376,7 +387,8 @@ function App() {
       ) : (
         <>
       <div className="main">
-        { stop ? <h1 className="endText"> Congratulations ! You earned : {earned}</h1> : (
+
+        { stop ? <h1 className="endText"> <center>{displayEarnings()}</center> <br /> You earned : {earned}</h1> : (
       <>
         <div className="top">
           <div className="timer"><Timer setStop={setStop} questionNumber={questionNumber}/></div>
