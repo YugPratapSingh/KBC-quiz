@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/KBC-quiz/static/css/main.72c4c459.css",
+    "main.js": "/KBC-quiz/static/js/main.1a069740.js",
+    "static/js/885.6134a48c.chunk.js": "/KBC-quiz/static/js/885.6134a48c.chunk.js",
+    "static/media/download.gif": "/KBC-quiz/static/media/download.d10669918a95b413ceb3.gif",
+    "static/media/startsound.mp3": "/KBC-quiz/static/media/startsound.4a0296f34c877fef9e71.mp3",
+    "static/media/kbclogo.png": "/KBC-quiz/static/media/kbclogo.1e75005e61eb7371784c.png",
+    "static/media/play.mp3": "/KBC-quiz/static/media/play.21ca5e01e79f6d6a9adb.mp3",
+    "static/media/correct.mp3": "/KBC-quiz/static/media/correct.160572d72c858155072e.mp3",
+    "static/media/wrong.mp3": "/KBC-quiz/static/media/wrong.e946821894ae9b0a0d6f.mp3",
+    "index.html": "/KBC-quiz/index.html",
+    "main.72c4c459.css.map": "/KBC-quiz/static/css/main.72c4c459.css.map",
+    "main.1a069740.js.map": "/KBC-quiz/static/js/main.1a069740.js.map",
+    "885.6134a48c.chunk.js.map": "/KBC-quiz/static/js/885.6134a48c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72c4c459.css",
+    "static/js/main.1a069740.js"
+  ]
+}
