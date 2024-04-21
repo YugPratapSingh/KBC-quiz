@@ -111,6 +111,7 @@
 }
 
 .pyramid{
+    border-left: 3px solid  goldenrod;
     width: 25%;
     display: flex;
     align-items: center;
@@ -136,14 +137,14 @@
 }
 
 .moneyListItemNumber{
-    font-size: 18px;
-    font-weight: 100;
-    width: 30%;
+    font-size: 22px;
+    font-weight: 250;
+    width: 32%;
 }
 
 .moneyListItemAmount{
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 26px;
+    font-weight: 400;
 }
 
 .endText{

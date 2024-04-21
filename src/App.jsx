@@ -370,13 +370,17 @@ function App() {
 
   const displayEarnings=() => {
     console.log(questionNumber);
-    if (questionNumber!=1)
+    if (questionNumber!==1)
     {
-      return("Congratulations---!");
+      return("!---Congratulations---!");
     }
+    // else if(questionNumber===15)
+    // {
+    //   return("!---Great Job---!\nYou won the Game.");
+    // }
     else
     {
-      return("Sorry---!");
+      return("!---Sorry---!");
     }
   }
 
